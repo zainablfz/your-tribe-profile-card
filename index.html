@@ -5,59 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FDND Visitekaartje</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <style>
+      .neon-text {
+        font-size: 20px;
+        color: #000000; /* Text color */
+        text-shadow: 0 0 10px rgba(97, 95, 97, 0.7), 0 0 20px rgb(240, 176, 210),
+          0 0 30px rgb(253, 253, 253), 0 0 40px rgb(252, 252, 252),
+          0 0 50px rgb(255, 255, 255), 0 0 60px rgb(251, 251, 251);
+      }
+    </style>
   </head>
   <body>
-    <article>
+    <article id="article-front">
+      <img src="assets/foto.jpg" alt="" width="800" height="800" />
+
       <header>
-        <img src="assets/foto.jpg" alt="" width="800" height="800" />
-
-        <h1>Zainab el Faiz</h1>
-        <p>Student Frontend Developer</p>
-
-        <button>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg
-            width="24"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="red"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
+        <h1 class="glow-text">Zainab el Faiz</h1>
       </header>
 
-      <p>
-        <br />
-        Ik wil leren om creatieve en functionele websites te maken voor zowel de
-        opdrachtegever als de gebruiker.
-      </p>
-    </article>
+      <p class="neon-text">Student Frontend Developer</p>
+      <br />
+      <p class="neon-text">19 jaar > Amsterdam > Voetbal</p>
+      <br />
+      <p class="neon-text">Leergierig / Ambitieus / Creatief</p>
 
+      <button class="button" style="vertical-align: middle">
+        <span>More </span>
+      </button>
+
+      <div class="article-back"></div>
+    </article>
     <script src="scripts/script.js"></script>
   </body>
 </html>

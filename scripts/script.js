@@ -1,6 +1,14 @@
-const expandButton = document.querySelector('header button')
-expandButton.addEventListener('click', expand)
+// document.addEventListener('DOMContentLoaded', function() {
 
-function expand () {
-  document.body.classList.toggle('expand')
-}
+const article = document.getElementById('article-front')
+const rotatebutton = document.querySelector('.button')
+const articleback = document.querySelector('.article-back')
+
+rotatebutton.addEventListener ('click', () => {
+    article.classList.toggle('rotated');
+
+    if (article.classList.contains('rotated')) {
+  
+      }
+});
+// })
