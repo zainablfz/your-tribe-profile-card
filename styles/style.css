@@ -15,7 +15,7 @@ body {
   font-family: open sans;
   color: #10214e;
   background-image: repeating-linear-gradient(rgb(176, 158, 168), pink );
- 
+
 }
 
 article {
@@ -44,7 +44,6 @@ article {
 .article-back {
   height: 100%;
   width: 100%;
-  border-radius: 2rem;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
   backface-visibility: hidden;
@@ -57,7 +56,6 @@ article {
 }
 .article-back {
   transform: rotateY(180deg);
-  background-color: rgb(208, 20, 20);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,8 +82,11 @@ h1 {
 
 }
 
-p {
-margin: 0;
+p.neon-text{
+margin: 0rem;
+font-size: 13px;
+padding-top: 1em;
+
 }
 img {
   position: relative;
