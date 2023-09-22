@@ -86,8 +86,12 @@ p.neon-text{
 margin: 0rem;
 font-size: 13px;
 padding-top: 1em;
+color: #000000;
+text-shadow: 0 0 10px rgba(97, 95, 97, 0.7), 0 0 20px rgb(240, 176, 210),
+            0 0 30px rgb(253, 253, 253), 0 0 40px rgb(252, 252, 252),
+            0 0 50px rgb(255, 255, 255), 0 0 60px rgb(251, 251, 251);
+        }
 
-}
 img {
   position: relative;
   top: 1rem;
